@@ -431,4 +431,18 @@
     line-height: 1.9;
   }
 }
+/* إخفاء رابط التواصل الإضافي على الكمبيوتر */
+.mobile-contact {
+    display: none;
+}
 
+/* إظهار رابط التواصل داخل قائمة الموبايل */
+@media (max-width: 768px) {
+
+    #nav .mobile-contact {
+        display: block !important;
+        color: #c4a3ff;
+        font-weight: 700;
+    }
+
+}
