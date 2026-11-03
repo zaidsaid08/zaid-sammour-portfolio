@@ -406,3 +406,29 @@
     top: -12px;
 }
 
+/* إصلاح قسم البداية على الموبايل */
+@media (max-width: 768px) {
+
+  .hero {
+    overflow: hidden;
+  }
+
+  .hero-inner {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .hero h1 {
+    font-size: clamp(30px, 7vw, 42px) !important;
+    line-height: 1.4 !important;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  .hero p {
+    font-size: 15px !important;
+    line-height: 1.9;
+  }
+}
+
